@@ -3,9 +3,14 @@
   padding: 20px 0;
 }
 
-/* .logo{
-  height: 50px;
-} */
+.logo{
+  height: 60px;
+  position: absolute;
+  margin-left: -130px;
+  margin-top: 8px;
+  border-radius: 10px;
+
+}
 
 .section-container{
   margin-top: 40px;
@@ -19,7 +24,7 @@ textarea{
   height: 390px;
   border: 1px solid #ced4da;
   border-radius: 15px;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 textarea:focus{

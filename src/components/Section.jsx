@@ -9,7 +9,7 @@ const Section = ({text,setText,convertTextToSpeech}) => {
                 onChange={(e) => setText(e.target.value)}
             />
             <button className='btn-convert' onClick={() => convertTextToSpeech()}
-            >Convert to Speech</button>
+            >Convert </button>
         </div>
     )
 }
